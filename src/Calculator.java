@@ -1,21 +1,20 @@
 import java.util.*;
 
 public class Calculator {
-
     double addition(double x, double y) {
         return x + y;
     }
-
     double subtraction(double x, double y) {
         return x - y;
     }
-
     double multiplication(double x, double y) {
         return x * y;
     }
-
     double division(double x, double y) {
         return x / y;
+    }
+    double modulus(double x, double y){
+        return x % y;
     }
 
     public static void main(String args[]) {
@@ -30,17 +29,18 @@ public class Calculator {
             System.out.println("2. Subtraction");
             System.out.println("3. Multiplication");
             System.out.println("4. Division");
-            System.out.println("5. Exit");
+            System.out.println("5. Modulus");
+            System.out.println("6. Exit");
 
             System.out.print("Enter choice: ");
             int ch = sc.nextInt();
 
-            if (ch == 5) {
+            if (ch == 6) {
                 System.out.println("Exiting...");
                 break;
             }
 
-            if (ch < 1 || ch > 5) {
+            if (ch < 1 || ch > 6) {
                 System.out.println("Invalid Choice!");
                 continue;
             }
@@ -70,6 +70,9 @@ public class Calculator {
                     } else {
                         System.out.println("Result = " + calc.division(x, y));
                     }
+                    break;
+                case 5: 
+                    System.out.println("Result= " + calc.modulus(x, y));
                     break;
             }
         }
