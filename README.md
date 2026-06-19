@@ -52,3 +52,7 @@ Java_CalculatorApp
 ## Author
 
 Himanshu Kumar
+
+## Screenshot
+
+![Calculator Output](calculator-output.png)
