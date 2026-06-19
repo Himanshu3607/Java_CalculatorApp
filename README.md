@@ -1,27 +1,54 @@
 # Java Calculator App
 
-A simple calculator application built using Java.
+A menu-driven calculator application built using Java.
 
 ## Features
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Continuous calculations using a menu-driven program
+
+* Addition
+* Subtraction
+* Multiplication
+* Division
+* Modulus
+* Power
+* Square Root
+* Maximum of two numbers
+* Minimum of two numbers
+* Continuous calculations using a loop
+* Division by zero handling
+* Invalid menu choice handling
 
 ## Technologies Used
-- Java
-- Git
-- GitHub
-- VS Code
+
+* Java
+* Git
+* GitHub
+* VS Code
 
 ## How to Run
 
 1. Compile the program:
-   javac src/Calculator.java
+
+```bash
+javac src/Calculator.java
+```
 
 2. Run the program:
-   java Calculator
+
+```bash
+java Calculator
+```
+
+## Project Structure
+
+```text
+Java_CalculatorApp
+│
+├── src
+│   └── Calculator.java
+│
+└── README.md
+```
 
 ## Author
+
 Himanshu Kumar
